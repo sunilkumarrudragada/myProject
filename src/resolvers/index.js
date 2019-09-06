@@ -1,3 +1,7 @@
 import user from './user'
+import customScalarResolver from '../customTypes';
 
-export default [...user]
+export default [
+  customScalarResolver,
+  ...user
+]
